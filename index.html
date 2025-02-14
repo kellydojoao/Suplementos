@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suplementos</title>
+    <title>Suplementos - Nome da Loja</title>
+    <meta name="description" content="Encontre os melhores suplementos para sua saúde e bem-estar na [Nome da Loja].">
+    <meta name="keywords" content="suplementos, nutrição, saúde, bem-estar, [outras palavras-chave relacionadas]">
 </head>
 <body>
     <header>
@@ -24,13 +26,33 @@
             <article>
                 <h3>Nome do Produto 1</h3>
                 <img src="imagem_produto_1.jpg" alt="Produto 1">
-                <p>Descrição do produto 1.</p>
+                <figcaption>Descrição do produto 1: [Benefícios e como usar]</figcaption>
+                <table>
+                    <tr>
+                        <th>Marca:</th>
+                        <td>[Marca do produto]</td>
+                    </tr>
+                    <tr>
+                        <th>Preço:</th>
+                        <td>[Preço do produto]</td>
+                    </tr>
+                    </table>
                 <button>Comprar</button>
             </article>
             <article>
                 <h3>Nome do Produto 2</h3>
                 <img src="imagem_produto_2.jpg" alt="Produto 2">
-                <p>Descrição do produto 2.</p>
+                <figcaption>Descrição do produto 2: [Benefícios e como usar]</figcaption>
+                <table>
+                    <tr>
+                        <th>Marca:</th>
+                        <td>[Marca do produto]</td>
+                    </tr>
+                    <tr>
+                        <th>Preço:</th>
+                        <td>[Preço do produto]</td>
+                    </tr>
+                    </table>
                 <button>Comprar</button>
             </article>
         </section>
@@ -38,6 +60,22 @@
         <section>
             <h2>Sobre Nós</h2>
             <p>Informações sobre a loja e a equipe.</p>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
